@@ -1,7 +1,5 @@
 package eInitializationAndCleanup;
 
-import sun.print.CUPSPrinter;
-
 import static java.lang.System.out;
 
 public class InitializationAndCleanup {
