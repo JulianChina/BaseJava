@@ -13,9 +13,9 @@ public class Interface {
     //9.1 抽象类和抽象方法
     //9.2 接口
     //9.3 完全解耦
-        //创建一个能够根据所传递的参数对象的不同而具有不同行为的方法，被称为策略设计模式。这类方法包含所要执行的算法中固定不变的部分。
+        //创建一个能够根据所传递的参数对象的不同而具有不同行为的方法，被称为【策略】设计模式。这类方法包含所要执行的算法中固定不变的部分。
         //而"策略"包含变化的部分。策略就是传递进去的参数对象。
-        //适配器设计模式(FilterAdapter)。
+        //【适配器】设计模式(FilterAdapter)。
         static class Processor {
             public String name() {
                 return getClass().getSimpleName();
@@ -275,7 +275,7 @@ public class Interface {
         }
     }
     //9.9 接口与工厂
-        //工厂方法模式：透明地将某个实现替换为另一个实现。
+        //【工厂方法】模式：透明地将某个实现替换为另一个实现。
         interface Service {
             void method1();
             void method2();
