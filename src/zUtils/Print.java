@@ -3,6 +3,9 @@ package zUtils;
 import java.io.PrintStream;
 
 public class Print {
+    public static void format(String formatStr, Object... obj) {
+        System.out.format(formatStr, obj);
+    }
     public static void print(Object obj) {
         System.out.println(obj);
     }
