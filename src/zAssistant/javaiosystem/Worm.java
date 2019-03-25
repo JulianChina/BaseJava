@@ -42,7 +42,7 @@ public class Worm implements Serializable {
         Worm w = new Worm(6, 'a');
         print("w = " + w);
         ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("worm.out"));
-        out.writeObject("Worm storage\n");
+        out.writeObject("Worm store\n");
         out.writeObject(w);
         out.close();
         ObjectInputStream in = new ObjectInputStream(new FileInputStream("worm.out"));
@@ -52,7 +52,7 @@ public class Worm implements Serializable {
 
         ByteArrayOutputStream bout = new ByteArrayOutputStream();
         ObjectOutputStream out2 = new ObjectOutputStream(bout);
-        out2.writeObject("Worm storage\n");
+        out2.writeObject("Worm store\n");
         out2.writeObject(w);
         out2.flush();
         ObjectInputStream in2 = new ObjectInputStream(new ByteArrayInputStream(bout.toByteArray()));
