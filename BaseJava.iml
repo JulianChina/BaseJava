@@ -7,5 +7,39 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="net.mindview.util" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../XOM" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://$MODULE_DIR$/../XOM/apidocs" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../XOM/fatsrc" />
+          <root url="file://$MODULE_DIR$/../XOM/src" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../XOM" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../apt-mirror-api-0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../javassist.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
