@@ -4,6 +4,8 @@
 
 目录JavaConcurrency: [深入浅出Java多线程](https://redspider.gitbook.io/concurrent/)
 
+目录EffectiveJava3rd: Effective Java(Third Edition)
+
 目录JavaNetwork: Java网络编程(第4版)
 
 目录Others: 练手Java程序
